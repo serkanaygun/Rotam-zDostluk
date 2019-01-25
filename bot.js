@@ -167,4 +167,4 @@ module.exports = member => {
 };
 
 
-client.login(ayarlar.token);
+client.login(process.env.bot_token);
